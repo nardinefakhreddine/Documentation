@@ -1,0 +1,219 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    min-height: 100vh;
+    background-image: url("download.jpeg");
+    background-size: cover;
+    position:relative;
+}
+.header-area{
+    position:relative;
+    padding:10px;
+    z-index:1;
+    color:white;
+    display:flex;
+
+
+}
+.header-area .logo{
+    
+    padding:15px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+    background-color:yellowgreen;
+    border-radius:50%;
+    box-shadow: 2px 2px 2px 2px white;
+}
+.links{
+    list-style:none;
+    width: 100%;
+    text-align:right;
+    padding-left: 0;
+    padding-right: 20px;
+    font-size: 15px;
+
+}
+.links li{
+       display: inline-block;/*  il peut contenir element block et peut changer width and padding */
+      margin-left: 10px;;
+       
+
+}
+.links li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+.links li a:hover{
+    color:yellowgreen;
+
+}
+.text{
+    position:absolute;
+    left:50%;
+
+    top:50%;
+    
+    
+    transform: translate(-50%,-50%);
+    color:white;
+    z-index:1;
+    text-align: center;
+    line-height: 18px;
+    font-weight: bold;
+}
+.text span{
+    color:yellowgreen;;
+}
+.content{
+    width: 1170px;
+    padding-left: 15px;
+    padding-right:15px;
+    margin:auto;
+
+
+
+}
+.about {
+    padding-top:50px;
+    padding-bottom: 50px;
+    display: flex; 
+ 
+
+}
+.about .info{
+   flex:1;
+   padding:30px;
+
+}
+.about .info h2{
+    font-weight: bold;
+    font-size: 30px;
+    color:yellowgreen;
+    margin:0 0 10px;
+
+} 
+.about .info  p{
+    color:grey;
+    margin:0;
+
+
+} 
+.read{
+    padding: 5px;
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+}
+.read a{
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
+}
+.read:hover{
+    background-color:greenyellow;
+}
+
+
+
+ .image img{
+    border-radius: 30px;
+    box-shadow:5px 5px 5px 5px rgb(151, 146, 96) ;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+.skills h2{
+    text-align: center;
+    color:yellowgreen;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+.skills ul{
+    border-radius: 10px;
+    border:solid 1px grey;
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #f1f3de;
+    font-style: italic;
+    color: #41444b;
+    
+
+}
+.skills ul li{
+   border:solid 1px grey;
+   list-style-type: square;
+   padding: 10px;
+
+}
+.skills ul li:hover{
+    background-color: khaki;
+}
+footer{
+    background-color: #333;
+    color:#eee;
+    padding:15px;
+    text-align: center;
+
+}
+
+.contact{
+    min-height: 300px;
+    background-image: url("images.jpeg");
+    background-size: cover;
+    padding-bottom: 80px;
+    position: relative;
+    
+}
+.contact .container{
+    position: relative;
+    z-index:1;
+}
+.contact h2{
+    text-align: center;
+    color:yellowgreen;
+    font-weight: bold;
+    font-size: 50px;
+    margin:0 0 10px;
+
+}
+.contact form{
+ max-width: 800px;
+ margin: auto;
+}
+.contact form .left{
+    float: left;
+    width:40%;
+
+}
+.contact form .right{
+    float: right;
+    width:40%;
+    
+
+}
+.contact form input:not([type="radio"]),
+.contact form textarea{
+
+    display: block;
+    width: 100%;
+    padding:10px;
+    margin-bottom: 15px;
+    border: 1px solid grey;
+    background-color:#f3f3f3;
+
+
+}
+.contact form textarea{
+    height: 50px;
+   
+}
+[type="submit"]{
+    background-color: grey;
+
+}

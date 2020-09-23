@@ -1,0 +1,214 @@
+body{
+    margin :0px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #212b2d;
+    color: white;
+}
+.container {
+    min-height: 100vh;
+    margin:0 5%;
+    ;
+}
+.container .title{
+    position:absolute;
+    top:20px;
+    left:150px;
+    padding:10px;
+    z-index:1;
+    color:white;
+    font-style: italic;
+    font-weight: bold;
+   
+
+
+}
+.nav{
+position:absolute;
+margin:0 5%;
+margin-top:5px;
+
+background-color: #323c3e;
+color: white;
+padding: 10px;
+top:300px;
+width: 88.5%;
+
+}
+.nav ul li{
+    margin-left: 50px;
+    list-style: none;
+    display: inline-block;
+    margin-right:30px;
+    border-right:  1px solid grey;
+    padding-right: 40PX;
+}
+.nav ul li a{
+
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    
+}
+
+
+
+
+
+.content{
+    width: 1170px;
+    padding-left: 15px;
+    padding-right:15px;
+    margin:auto;
+
+
+
+}
+
+
+.area{
+    
+    position:absolute;
+    top:400px;
+    left: 65px;
+    width: 300px;
+    display: flex;
+    
+
+}
+.menu ul li{
+    list-style-type: square;
+}
+
+.sub-left{
+margin-right:100px;
+}
+.sub-left{
+margin-right:100px;
+}
+.area h2{
+    margin-left: 30px;
+}
+.area .text-block{
+    margin-left: 10px;
+   min-width: 250px;
+}
+
+.div-right{
+    margin-left: 100px;
+  
+    
+width: 800px;
+
+}
+.area-right{
+    width:790px;
+}
+.area-right .text{
+    width:799px;
+    padding: 3px;
+}
+.area-right .text p{
+  
+    padding-left: 5px;
+    padding-right: 10px;
+} 
+.sub{
+    display:flex;
+    margin: 0 auto !important;
+    
+    text-align: center;
+}
+.sub-right{
+margin-left:10px;
+border-left:1px solid grey ;
+
+}
+.sub-left{
+margin-left: 0px;
+    }
+.sub-left p{
+    margin-left:20px;
+    }
+.sub-right p{
+margin-left: 20px;
+}
+span {
+    background-color: white;
+    color: grey;
+    padding: 10px;
+}
+span a {
+    text-decoration: none;
+    color: grey;
+}
+
+
+
+.contact{
+    min-height: 300px;
+    background-image: url("images.jpeg");
+    background-size: cover;
+   margin-bottom: 50px;
+    position: relative;
+    margin-top: 300px;
+    
+    
+}
+.contact .container{
+    position: relative;
+    z-index:1;
+}
+.contact h2{
+    text-align: center;
+    color:grey;
+    font-weight: bold;
+    font-size: 50px;
+    margin:0 0 10px;
+
+}
+.contact form{
+ max-width: 800px;
+ margin: auto;
+}
+.contact form .left{
+    float: left;
+    width:40%;
+
+}
+.contact form .right{
+    float: right;
+    width:40%;
+    
+
+}
+.contact form input:not([type="radio"]),
+.contact form textarea{
+
+    display: block;
+    width: 100%;
+    padding:10px;
+    margin-bottom: 15px;
+    border: 1px solid grey;
+    background-color:#f3f3f3;
+
+
+}
+.contact form textarea{
+    height: 50px;
+   
+}
+[type="submit"]{
+    background-color: grey;
+
+}
+footer{
+    
+    background-color: #323c3e;
+    color:#eee;
+    padding:15px;
+    text-align: center;
+    width: 88.5%;
+    margin:0 5%;
+    font-size: 15px;
+
+}
